@@ -2,6 +2,21 @@ body{
     margin: 0;
     padding: 0;
 }
+.footer-section{
+    background-color: cadetblue;
+    padding: 40px;
+}
+ul{
+    margin-top: -20px;
+}
+ul li{
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+    padding: 0 20px;
+    color: white;
+    
+}
 h1{
     font-size: 50px;
 }
