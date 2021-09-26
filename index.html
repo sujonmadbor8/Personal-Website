@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b2b72f8f1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="footer-section">
+    <header class="headers-section">
         <div>
             <ul>
                 <li>About</li>
@@ -19,19 +23,123 @@
                 <li>About</li>
             </ul>
         </div>
-    </section>
+    </header>
     <section class="top-banner">
         <div class="half-width">
             <h1>Hello, I'M</h1>
-            <h1>SUJON MADBOR</h1>
+            <h1><span class="tomato-highlight">SUJON MADBOR</span></h1>
             <P>A full stack allaround designer that placerat
                 in massa consectetur</P>
-            <a class="link-button" href="https://www.facebook.com/sujonmadbor8">Hire Me</a>
+            <a class="link-button" href="https://www.facebook.com/sujonmadbor8" target="_blank">Hire Me</a>
         </div>
         <div class="half-width">
             <img src="images/profile-1.png" alt="">
         </div>
     </section>
+    <section class="about-section">
+        <div class="half-width">
+            <img src="images/profile-2.png" alt="" srcset="">
+        </div>
+        <div class="half-width">
+            <h1>ABOUT</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quibusdam placeat provident perspiciatis?
+                Cupiditate quisquam placeat vitae voluptatibus excepturi accusamus eligendi rem quis vero
+                exercitationem. Maiores, ipsa sed? Aperiam veritatis quisquam unde quaerat molestias quia commodi
+                ratione blanditiis a sunt. Minima adipisci neque sint omnis cum minus quam quis natus!</p>
+            <a href="https://www.facebook.com/sujonmadbor8" class="link-button" target="_blank"><i
+                    class="fas fa-download"></i> Download
+                CV</a>
+        </div>
+    </section>
+    <section class="project-section">
+        <h2 style="text-align: center; padding-top: 40px;"><span class="tomato-highlight">LATEST</span> WORKING
+            PROJECT</h2>
+        <div class="project-width">
+            <div class="project-img">
+                <img src="images/gym.png" alt="" srcset="">
+            </div>
+            <div class="project-details">
+                <h3>Power-x-gym (gym website)</h3>
+                <p>Lorem Ipsum is simply dummy text of the
+
+                    printing and typesetting industry</p>
+            </div>
+        </div>
+        <div class="project-width">
+            <div class="project-img">
+                <img src="images/agency.png" alt="" srcset="">
+            </div>
+            <div class="project-details">
+                <h3>Creative Agency</h3>
+                <p>Lorem Ipsum is simply dummy text of the
+
+                    printing and typesetting industry</p>
+            </div>
+        </div>
+        <div class="project-width">
+            <div class="project-img">
+                <img src="images/hard-rock.png" alt="" srcset="">
+            </div>
+            <div class="project-details">
+                <h3>Hard Rock Music</h3>
+                <p>Lorem Ipsum is simply dummy text of the
+
+                    printing and typesetting industry</p>
+            </div>
+        </div>
+    </section>
+    <section class="inquiry-section">
+        <div class="inquery-h1">
+            <span class="tomato-highlight">WORLD</span> INQUIRY
+        </div>
+        <div class="inquery-button">
+            <a href="https://www.facebook.com/sujonmadbor8" target="_blank" rel="noopener noreferrer"><button>Let's
+                    Chat</button></a>
+        </div>
+    </section>
+    <scetion class="contact">
+        <div class="container">
+            <h2>Contact :</h2>
+            <form action="/action_page.php">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="comment">Comment:-</label>
+                <textarea id="comment" name="comment" placeholder="Write something.."
+                    style="height:200px;resize: none;"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </scetion>
+    <section class="stay-connected">
+        <h1>STAY CONNECTED</h1>
+        <ul>
+            <li><a href="https://www.facebook.com/sujonmadbor8" target="_blank">
+                    <i class="icon  fab fa-facebook"></i>
+                </a></li>
+            <li><a href="https://www.facebook.com/sujonmadbor8" target="_blank">
+                    <i class="icon fab fa-linkedin-in"></i>
+                </a></li>
+            <li><a href="https://www.facebook.com/sujonmadbor8" target="_blank">
+                    <i class="icon fab fa-twitter"></i>
+                </a></li>
+        </ul>
+
+    </section>
+    <footer class="footer-section">
+        © Developed by | Md. Sujon | 2021
+    </footer>
 </body>
 
 </html>
